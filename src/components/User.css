@@ -1,0 +1,35 @@
+.user-container {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+
+    height: 60px;
+}
+
+.user-foto {
+    height: 65%;
+    object-fit: contain;
+
+    border-radius: 50%;
+    border: 1px solid rgb(229,229,230);
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    margin-left: 5px;
+}
+
+.name-surname {
+    text-overflow: ellipsis;
+    font-size: 12pt;
+}
+
+.nickname {
+    text-overflow: ellipsis;
+    font-size: 10pt;
+    color: rgb(152,153,154);
+}

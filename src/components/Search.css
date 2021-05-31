@@ -1,0 +1,36 @@
+.search-input {
+    max-width: 345px;
+    min-width: 110px;
+    width: 100%;
+    height: 60px;
+    
+    outline: none;
+    border: none;
+    font-size: 17pt;
+
+    border-radius: 5px 5px 0 0;
+    border-bottom: 1px solid;
+    border-color: #000000;
+
+    background-color: rgb(249,249,249);
+    background-image: url(../images/searching-magnifying-glass.svg);
+    background-size: auto 30%;
+    background-repeat: no-repeat;
+    background-position: 6% center;
+
+    padding-left: 20%;
+}
+
+.search-input::placeholder {
+    color: rgb(204,197,196);
+}
+
+.clip-loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    max-height: 180px;
+    min-height: 120px;
+    height: 100%;
+}
